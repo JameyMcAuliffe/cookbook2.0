@@ -1,0 +1,17 @@
+{
+  "name": "cookbook2.0",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Jamey McAuliffe <jpmcauliffe15@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JameyMcAuliffe/cookbook2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
