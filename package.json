@@ -1,0 +1,29 @@
+{
+  "name": "cookbook2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "firebase": "~3.7.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JameyMcAuliffe/cookbook2.0.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JameyMcAuliffe/cookbook2.0/issues"
+  },
+  "homepage": "https://github.com/JameyMcAuliffe/cookbook2.0#readme"
+}
