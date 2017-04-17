@@ -9,3 +9,6 @@ var config = {
   };
   firebase.initializeApp(config);
 
+const dbRef = firebase.database().ref().child('recipes')
+dbRef.on('value', snap => console.log(snap.val()))
+
