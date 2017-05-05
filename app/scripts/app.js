@@ -19,7 +19,12 @@ const app = angular.module('Cookbook', ['ngRoute'])
 	//Routes
 	$routeProvider
 		.when('/', {
-			templateUrl: '../templates/home.html'
+			templateUrl: '../templates/home.html',
+			controller: 'HomeCtrl'
+		})
+		.when('/recipes', {
+			templateUrl: '../templates/recipes.html',
+			controller: 'RecipesCtrl'
 		})
 
 })
