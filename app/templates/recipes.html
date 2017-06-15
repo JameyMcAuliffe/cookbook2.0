@@ -1,3 +1,16 @@
 <div class="container">
 	<h1>My Recipes</h1>
 </div>
+<div>
+	<ul>
+		<li ng-repeat="recipe in recipes">
+			<h3>{{recipe}}</h3>
+		</li>
+		<li ng-repeat="ingredientName in ingredientNames">
+			<h3>{{ingredientName}}</h3>
+		</li>	
+		<li ng-repeat="ingredientValue in ingredientValues">
+			<h3>{{ingredientValue}}</h3>
+		</li>	
+	</ul>
+</div>
